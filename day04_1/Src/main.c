@@ -24,6 +24,7 @@ int main(void)
 	{
 		LcdWrite(LCD_CMD,LCD_SHIFT);
 		DelayMs(500);
+		i++;
 	}
 	return 0;
 }
