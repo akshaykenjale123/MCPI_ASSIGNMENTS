@@ -13,13 +13,14 @@
 
 int main(void)
 {
+        int i=1;
 	SystemInit();
 	LcdInit();
 	LcdPuts(LCD_LINE1, "DESD @ SUNBEAM");
 	LcdPuts(LCD_LINE2, "GOD BLESS YOU!");
 
 
-	while(1)
+	while(i <= 40)
 	{
 		LcdWrite(LCD_CMD,LCD_SHIFT);
 		DelayMs(500);
