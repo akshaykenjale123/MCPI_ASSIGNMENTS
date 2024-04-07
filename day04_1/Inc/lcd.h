@@ -30,10 +30,10 @@
 #define LCD_CLEAR		0x01
 #define LCD_FN_SET		0x28
 #define LCD_DISP_ON		0x0F
-#define LCD_ENTRY_MODE	0x06
+#define LCD_ENTRY_MODE	        0x06
 #define LCD_LINE1		0x80
 #define LCD_LINE2		0xC0
-#define LCD_SHIFT       0x18
+#define LCD_SHIFT               0x18
 
 #define LCD_CMD			0
 #define LCD_DATA		1
